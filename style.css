@@ -141,4 +141,12 @@ centro do browser. O container é invisível. */
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    width: 1000px;
+    height: 198px;
+    left: 528px;
+    top: 1179px;
+    border-radius: 0px;
+    background: #BE89CB;    
 }
+
