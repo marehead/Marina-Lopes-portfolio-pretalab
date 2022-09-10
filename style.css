@@ -6,12 +6,15 @@
     padding: 0;
     /* para configurar uma ou mais das propriedades de contorno */
     outline: 0;
+    
 }
 
 body{
     /* Definindo a fonte de todo nosso body */
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display:inline-block;
+    overflow-x: hidden;
 }
 
 li {
@@ -26,9 +29,9 @@ li {
     width: 100%; /*Largura*/
     padding: 8px; /*Espaçamento dos 4 lados*/
     padding-bottom: 32px; /*Espaçamento inferior*/
-    padding-top: 32px;/*Espaçamento superior*/
+    padding-top: 15px;/*Espaçamento superior*/
     height: 60px; /*Altura*/
-    background-color: #724796; /*Cor de fundo*/
+    background-color: #FFD700; /*Cor de fundo*/
 }
 
 .header-menu nav {
@@ -55,9 +58,9 @@ li {
 /*Continuar daqui */
 
 .principal{
-    height: 100vh;
+    height: 120vh;
     display: flex;
-    background-color: #EAEAEA;
+    background-color: #FAFAD2;
 }
 
 /* O container é um componente que garante que o seu layout vai ficar alinhado corretamente na página.
@@ -82,7 +85,7 @@ centro do browser. O container é invisível. */
 
 .nome-completo {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #C6B5D5;
     font-weight: 700; /*espessura*/
     height: 45px;
 }
@@ -93,13 +96,17 @@ centro do browser. O container é invisível. */
 }
 
 .profissao {
-    color: #C6B5D5;
+    color: #661e4b;
     height: 60px; /*altura*/
 }
 
 .topico-principal {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #C6B5D5;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    margin: 20px 0 50px 0px;
 }
 
 
@@ -137,16 +144,125 @@ centro do browser. O container é invisível. */
     font-weight: 300;
 }
 
-.wrapper-portfolio {
+.formacao {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projetos {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 1000px;
-    height: 198px;
-    left: 528px;
-    top: 1179px;
-    border-radius: 0px;
-    background: #BE89CB;    
 }
 
+/* Rodapé */
+.container-footer {
+    margin-right: auto; /*uma margem automática para todos os lados*/
+    margin-left: auto; /**/
+    max-width: 960px; /*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+}
+
+.footer {
+    background-color: #FFD700;
+    height: 500px;
+    width: auto;
+    display:flex;
+    align-items: center;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration:none;
+    color: white;
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.wrapper-portfolio {
+    background-color: #724796;
+    display: inline-flex;
+    flex-direction: center;
+    position: absolute;
+    width: 2000px;
+    height: 0px;
+    border-radius: 0px;
+    background: yellow;   
+    left: 200px;
+    top: 2000x; 
+}
+
+#foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+    margin: 100px 421px 26px 431px;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+#projetos ul {
+    list-style: none;
+}
+
+#projetos h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 33px;
+    margin: 20px 0 50px 50px;
+    color: #724796;
+}
+
+#projetos h3 {
+    list-style: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 237px;
+    color: #9173ac;
+}
+
+#projetos a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #2F80ED;
+    margin: 0 464px 0 237px;
+
+}
+
+#projetos p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 8px 237px 50px 237px;
+
+}

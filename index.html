@@ -1,124 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Amanda Silva</title>
-    <link rel="shortcut icon" href="img/foto-perfil.jpeg">
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <title>Portfólio Marina Lopes</title>
+    <link rel="shortcut icon" href="img/foto-perfil.png">
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #FFFACD;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                background-color: #FFFACD;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: #FFFACD;
+
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-     <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
-     <header class="header-menu">
+    <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+    <header class="header-menu">
         <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
-       <nav>
+        <nav>
             <!-- O Ul e o OL são as listas -->
-           <ul class="lista-menu">
-               <li>
-                   <a href="#formacao">Formação</a>
-               </li>
-               <li>
-                   <a href="#portfolio">Portfólio</a>
-               </li>
-               <li>
-                   <a href="#contato">Contato</a>
-               </li>
-           </ul>
-       </nav>
-   </header>
-
-   <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
-
-   <main>
-       <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
-       <section class="principal">
-           <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
-           <div class="subcontainer-principal container">
-               <div>
-                   <img src="img/foto-perfil.jpeg">
-               </div>
-               <div>
-                   <h1 class="nome-completo">Marina Lopes</h1>
-                   <h2 class="profissao">Desenvolvedora Front-end</h2>
-               </div>
-               <div class="texto-sobre">
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
-                   metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, ut
-               </div>
-           </div>
-       </section>
-
-       <section>
-               <div class="container article-lista">
-                   <div>
-                       <h3 class="topico-principal">Formação</h3>
-                   </div>
-                   <div class="lista-item">
-                       <ul>
-                           <li>
-                               <p class="lista-titulo">Ciclo formativo Pretalab</p>
-                               <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
-                               <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-                           </li>
-                           <li>
-                               <p class="lista-titulo">Ciclo formativo</p>
-                               <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Colégio Ensino</a>
-                               <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
-       </section>
-
-       <section class="wrapper-portfolio">
-           <article class="container article-lista">
-               <div>
-                   <h3 class="topico-principal">Blog</h3>
-               </div>
-               <div class="lista-item">
-                   <ul>
-                       <li>
-                           <p class="lista-titulo">Mulheres que fazem história na Tecnologia</p>
-                           <p class="subtitulo-lista">Revelo</p>
-                           <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
-                           <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-                       </li>
-                       <li>
-                           <p class="lista-titulo">Quem Coda BR</p>
-                           <p class="subtitulo-lista">Pretalab</p>
-                           <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
-                           <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-                       </li>
-                   </ul>
-               </div>
-           </article>
-       </section>
-   </main>
-
-    <footer>
-        <div id="contato">   
-            <ul>
-                <li >
-                    <i class="fas fa-envelope-square"></i> 
-                    <a href="mailto:marina@teste.com">marisantl@hotmail.com</a>
-                </li>
-                   
+            <ul class="lista-menu">
                 <li>
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/mldosantos/" target="_blank">marelopes</a>
+                    <a href="#formacao">Formação</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfólio</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
+
+    <main>
+        <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
+        <section class="principal">
+            <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
+            <div class="subcontainer-principal container">
+                <div>
+                    <img src="img/yo.png" alt="Foto de perfil" id="foto">
+                </div>
+                <div>
+                    <h1 class="nome-completo">Marina Lopes</h1>
+                    <h2 class="profissao">Dev Front-end e analista Sysops</h2>
+                </div>
+                <div class="texto-sobre">
+                    Olá este é meu portfolio pessoal de tecnologia em desenvolvimento, me chamo Marina mas pode me
+                    chamar de Mare tenho 21 anos sou pretalabbers queer (pronomes: elu/ela/ele) não binárie de SP
+                    Capital. Sou apaixonade por tecnologia audiovisual e fotografia. Este ano Iniciei estudos do Módulo
+                    I do Segundo Ciclo Formativo Básico e fiz parte da primeira turma de Sysops do Programa ImpulsoTec.
+                    Atualmente estou aprendendo praticando HTML5, CSS3, Linux, AWS, Cloud Computing, Python e Javascript
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab /
+                                Olabi</a>
+                            <p class="lista-descricao">Em formação</p>
+                            <p>Projetos feitos:</p>
+                            <br>
+                            <a href="Bandeiras estado do Brasil" target="_blank">Bandeiras estado do Brasil</a>
+                            <p>
+                                <a href="Biografia de mulheres e pessoas não binaries na Tecnologia"
+                                    target="_blank">Biografia de mulheres e pessoas não binaries na Tecnologia</a>
+                        </li>
+                        <li>
+                            <p class="lista-titulo">Analista Jr Admnistração de Sistemas em Nuvem</p>
+                            <a href="https://www.linkedin.com/in/mldosantos/details/education/" target="_blank"
+                                class="lista-local">Descomplica</a>
+                            <p class="lista-descricao"></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div>
+                <h2>Meus projetos</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Calculadora</h3>
+                        <a href="#" target="_blank">Calculadora em JavaScript</a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti itaque odit et
+                            perferendis!
+                            Sunt itaque aut architecto minima voluptatibus sint porro fuga provident perferendis odio,
+                            aspernatur cupiditate a laborum perspiciatis.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Projeto pessoal com React</h3>
+                        <a href="#" target="_blank">Projeto em React</a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti itaque odit et
+                            perferendis!
+                            Sunt itaque aut architecto minima voluptatibus sint porro fuga provident perferendis odio,
+                            aspernatur cupiditate a laborum perspiciatis.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <section class="wrapper-portfolio">
+        <article class="container article-lista">
+            <div>
+                <h3 class="topico-principal">Blog</h3>
+            </div>
+            <div class="lista-item">
+                <ul>
+                    <li>
+                        <p class="lista-titulo">Mulheres que fazem história na Tecnologia</p>
+                        <p class="subtitulo-lista">Revelo</p>
+                        <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
+                            target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em
+                            2022</a>
+                        <p class="lista-descricao"></p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Quem Coda BR</p>
+                        <p class="subtitulo-lista">Pretalab</p>
+                        <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem
+                            coda br</a>
+                        <p class="lista-descricao"></p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    </main>
+
+    <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+    <footer class="footer" id="contato">
+        <div class="container-footer ">
+            <ul class="lista-footer">
+                <li>
+                    <i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:marisantl@hotmail" target="_blank"
+                        class="links">marisantl@hotmail.com</a>
                 </li>
 
                 <li>
-                    <i class="fab fa-github-square"></i>
-                    <a href="https://github.com/marehead" target="_blank">marelopes</a>
+                    <i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/mldosantos/"
+                        target="_blank" class="links">mare lopes</a>
+                </li>
+                <li>
+                    <i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/marehead"
+                        target="_blank" class="links">mare lopes</a>
                 </li>
             </ul>
         </div>
     </footer>
-    
 </body>
+
 </html>
