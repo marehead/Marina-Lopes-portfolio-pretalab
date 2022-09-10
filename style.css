@@ -119,7 +119,7 @@ centro do browser. O container é invisível. */
     position: absolute;
     height: 154px;
     width: 490px;
-    left: 320px;
+    left: 350px;
     top: 400px;
     border-radius: none;
 
@@ -275,7 +275,7 @@ centro do browser. O container é invisível. */
     height: 0px;
     border-radius: 0px;
     left: 0px;
-    top: 1370px;
+    top: 1400px;
     color: #FF4DBC;
 
 }
