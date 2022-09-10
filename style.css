@@ -115,12 +115,12 @@ centro do browser. O container é invisível. */
 
 .texto-sobre {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
     position: absolute;
-    height: 154px;
-    width: 490px;
+    height: 150px;
+    width: 500px;
     left: 350px;
-    top: 400px;
+    top: 450px;
     border-radius: none;
 
 
