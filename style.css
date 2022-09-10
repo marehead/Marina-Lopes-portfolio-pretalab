@@ -6,7 +6,6 @@
     padding: 2;
     /* para configurar uma ou mais das propriedades de contorno */
     outline: 0;
-
 }
 
 body {
@@ -15,7 +14,6 @@ body {
     margin: 0;
     display: inline-block;
     overflow-x: hidden;
-
 }
 
 li {
@@ -112,7 +110,7 @@ centro do browser. O container é invisível. */
     color: #C6B5D5;
     font-weight: 700;
     /*espessura*/
-    height: 45px;
+    height: 50px;
 }
 
 .texto-sobre {
@@ -139,7 +137,7 @@ centro do browser. O container é invisível. */
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    margin: 20px 0 50px 40px;
+    margin: 70px 0 60px 40px;
     color: #724796;
 }
 
@@ -208,7 +206,6 @@ centro do browser. O container é invisível. */
     text-decoration-line: underline;
     color: #2F80ED;
     margin: 0 464px 0 237px;
-
 }
 
 #projetos p {
@@ -218,9 +215,7 @@ centro do browser. O container é invisível. */
     font-size: 14px;
     line-height: 140%;
     margin: 8px 237px 50px 237px;
-
 }
-
 
 .projetos {
     background-color: #EAEAEA;
@@ -280,7 +275,7 @@ centro do browser. O container é invisível. */
     height: 0px;
     border-radius: 0px;
     left: 0px;
-    top: 1325px;
+    top: 1370px;
     color: #FF4DBC;
 
 }
