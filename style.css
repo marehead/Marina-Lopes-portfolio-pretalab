@@ -37,7 +37,7 @@ li {
     /*Altura*/
     background-color: #FFD700;
     /*Cor de fundo*/
-    position: absolute;
+    position: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-size: 40px;
@@ -72,10 +72,10 @@ li {
 /*Continuar daqui */
 
 .principal {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     display: inline-block;
-    background-color: #F0E68C;
+    background-color: #FFFFB4;
 }
 
 /* O container é um componente que garante que o seu layout vai ficar alinhado corretamente na página.
@@ -106,7 +106,7 @@ centro do browser. O container é invisível. */
 }
 
 .nome-completo {
-    font-size: 36px;
+    font-size: 33px;
     color: #C6B5D5;
     font-weight: 700;
     /*espessura*/
@@ -115,16 +115,7 @@ centro do browser. O container é invisível. */
 
 .texto-sobre {
     font-size: 20px;
-    line-height: 25px;
-    position: absolute;
-    height: 150px;
-    width: 500px;
-    left: 350px;
-    top: 450px;
-    border-radius: none;
-
-
-    /*Espaçamento entre as linhas*/
+    line-height: 35px; /*Espaçamento entre as linhas*/
 }
 
 
@@ -241,7 +232,7 @@ centro do browser. O container é invisível. */
 
 .footer {
     background-color: #FFD700;
-    height: 200px;
+    height: 210px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -275,7 +266,7 @@ centro do browser. O container é invisível. */
     height: 0px;
     border-radius: 0px;
     left: 0px;
-    top: 1400px;
+    top: 1350px;
     color: #FF4DBC;
 
 }
